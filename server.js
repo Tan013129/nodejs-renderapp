@@ -65,7 +65,6 @@ app.get("/", (req, res) => {
             text-shadow: 0 0 15px #f72585, 0 0 35px #f72585;
           }
 
-          /* PROFILE PIC */
           .pfp {
             width: 170px;
             height: 170px;
@@ -83,7 +82,6 @@ app.get("/", (req, res) => {
             100% { box-shadow: 0 0 15px #f72585; }
           }
 
-          /* TYPEWRITER QUOTE */
           #quote {
             font-size: 20px;
             margin-top: 20px;
@@ -104,7 +102,6 @@ app.get("/", (req, res) => {
             50% { border-color: transparent; }
           }
 
-          /* BUTTONS */
           .btns {
             margin-top: 30px;
           }
@@ -132,20 +129,17 @@ app.get("/", (req, res) => {
 
       <body>
 
-        <!-- OPTIONAL MUSIC -->
         <audio autoplay loop>
           <source src="https://www.dropbox.com/scl/fi/yqwaxqf1srajykqz9n0s8/chill-music.mp3?dl=1" type="audio/mp3">
         </audio>
 
         <div class="container">
-          
-          <!-- PROFILE PIC -->
-          <img class="pfp" src="PROFILE_PICTURE_URL_HERE" alt="Profile Picture">
+
+          <img class="pfp" src="/mnt/data/30c25c48-b934-4934-b02f-2e76fd82d6a4.png" alt="Profile Picture">
 
           <h1 class="glow">NATHANIEL F. GREGORIO</h1>
           <h2>Section: BSIT BA - 4102</h2>
 
-          <!-- TYPEWRITER QUOTE -->
           <div id="quote"></div>
 
           <div class="btns">
