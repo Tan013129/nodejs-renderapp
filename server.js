@@ -135,10 +135,10 @@ app.get("/", (req, res) => {
 
         <div class="container">
 
-          <img class="pfp" src="/mnt/data/30c25c48-b934-4934-b02f-2e76fd82d6a4.png" alt="Profile Picture">
+          <img class="pfp" src="/mnt/data/338b7631-13b2-42b4-bd53-0134ed9d56c4.png" alt="Profile Picture">
 
           <h1 class="glow">NATHANIEL F. GREGORIO</h1>
-          <h2>Section: BSIT BA - 4102</h2>
+          <h2>Section: BSIT BA – 4102</h2>
 
           <div id="quote"></div>
 
@@ -168,5 +168,5 @@ app.get("/", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+  console.log(`Server running on port \${PORT}`);
 });
